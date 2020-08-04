@@ -11,7 +11,8 @@ const getNames = route => route?.state?.routeNames[route.state.index] || "Movies
 
 export default ({navigation, route}) => {
     useLayoutEffect(() => {
-       navigation.setOptions({title: getNames(route)});
+        const name = getNames(route);
+       navigation.setOptions({title: name });
     }, [route])
     return (
         <Tabs.Navigator>
