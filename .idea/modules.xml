@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Firemov.iml" filepath="$PROJECT_DIR$/.idea/Firemov.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/firemovies.iml" filepath="$PROJECT_DIR$/.idea/firemovies.iml" />
     </modules>
   </component>
